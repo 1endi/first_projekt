@@ -57,16 +57,16 @@
 # except:
 #      block
  
-value_1 = int(input("please set first value: "))
-value_2 = int(input("Please set second value: "))
-result = 0
+#value_1 = int(input("please set first value: "))
+#value_2 = int(input("Please set second value: "))
+#result = 0
 
-try:        #обробка помилок (мусить бути try і exept)
- #можна писати it, if і т.д.
-     result = value_1/value_2
-except ZeroDivisionError:
-    #можна писати if, it, for і т.д.
-     print("You can't by zero")
-except ValueError:
-    print("Wrong ValueError")
-print(result)
+#try:        #обробка помилок (мусить бути try і exept)
+#можна писати it, if і т.д.
+#     result = value_1/value_2
+#except ZeroDivisionError:
+#можна писати if, it, for і т.д.
+#     print("You can't by zero")
+#except ValueError:
+#    print("Wrong ValueError")
+#print(result)
